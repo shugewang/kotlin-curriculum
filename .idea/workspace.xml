@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0775b281-a581-4c2a-8646-ab89aad66dd8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/BasicsFunctions.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="0775b281-a581-4c2a-8646-ab89aad66dd8" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -70,7 +67,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678205359347</updated>
-      <workItem from="1678272796546" duration="10687000" />
+      <workItem from="1678272796546" duration="11399000" />
     </task>
     <servers />
   </component>

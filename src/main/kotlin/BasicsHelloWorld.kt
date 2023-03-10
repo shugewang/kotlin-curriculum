@@ -1,6 +1,6 @@
 import java.util.Scanner
 
-// Understanding of what the entry point for an application is
+// TODO: Understanding of what the entry point for an application is
 // An entry point of a Kotlin application is the main function
 fun main() {
     printToStandardOutput("I'm printing to standard output!")
@@ -9,15 +9,14 @@ fun main() {
     getName()
     getAge()
 }
-// Understanding of how to write to standard output.
+// TODO: Understanding of how to write to standard output.
 fun printToStandardOutput(toPrint: String) {
     print(toPrint)
 }
-
 fun printNewLineToStandardOutput(toPrint: String) {
     println(toPrint)
 }
-// Understanding of what standard output is.
+// TODO: Understanding of what standard output is.
 /*
 stdout - a stream to which a program writes its output data.
 stdin - a stream from which a program reads its input data.
@@ -42,7 +41,7 @@ fun getAge() {
     var age = input.nextInt()
     println("You are $age years old")
 }
-// Understanding of packages and the default behaviour
+// TODO: Understanding of packages and the default behaviour
 /*
 A Kotlin project is structured into packages. A package contains one or more Kotlin files, with files linked to a package using a package header.
 A file may contain exactly one or zero package headers, meaning each file belongs to exactly one package.
