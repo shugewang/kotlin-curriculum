@@ -1,4 +1,5 @@
 import kotlin.math.round
+import example.*
 
 // TODO: Understanding of what parameters are
 // Names listed in the function's definition, defined using Pascal notation - nameL type. Each parameter must be explicitly typed.
@@ -44,7 +45,7 @@ fun printStock(product: String) {
     var stock = mapOf("coke" to (5 add 10), "pepsi" to 5)
     println("$product stock: ${stock.get(product)}")
 }
-infix fun Int.add(b : Int) : Int = this + b
+
 
 fun main() {
 //    convertLbToKg(100.00)

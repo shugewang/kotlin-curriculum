@@ -47,16 +47,7 @@ fun getAge() {
 // TODO: Understanding of packages and the default behaviour
 /*
 A Kotlin project is structured into packages. A package contains one or more Kotlin files, with files linked to a package using a package header.
-A file may contain exactly one or zero package headers, meaning each file belongs to exactly one package.
-If the package is not specified, the contents of such a file belong to hte default package with no name.
 In order to use an entity form a file belong to a different package, you have to import them.
-Some packages are imported into every Kotlin file by default:
-- kotlin.* -> core functions and types
-- kotlin.annotation.* -> library support for Kotlin annotation facility
-- kotlin.collections.* -> collection types e.g. Collection, List, Set, Map and related functions
-- kotlin.comparisons.* -> comparison functions
-- kotlin.io.* -> IO API for working with files and streams
-- kotlin.ranges.* -> ranges and related functions
-- kotlin.sequences.* -> sequence type that represents lazily evaluated collections
-- kotlin.text.* -> functions for text and regular expressions
- */
+Some packages are imported into every Kotlin file by default: e.g. kotlin.* -> core functions and types, kotlin.annotation.* -> library support for Kotlin annotation facility
+Wildcard * can be used to import all classes from a package
+*/
