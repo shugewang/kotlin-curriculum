@@ -1,7 +1,10 @@
+package basics
 import java.util.Scanner
 
 // TODO: Understanding of what the entry point for an application is
 // An entry point of a Kotlin application is the main function
+// To compile the application using the Kotlin compiler: kotlinc hello.kt -include-runtime -d hello.jar
+// To run the application: java -jar hello.jar
 fun main() {
     printToStandardOutput("I'm printing to standard output!")
     printNewLineToStandardOutput("The next line will be a new line!")
