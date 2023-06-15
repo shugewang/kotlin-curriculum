@@ -46,6 +46,10 @@ fun printStock(product: String) {
     println("$product stock: ${stock.get(product)}")
 }
 
+data class Point(val x: Int, val y: Int)
+operator fun Point.plus(other: Point) = Point (x + other.x, y + other.y)
+operator fun Point.plus(other: Int) = Point (x + other, y + other)
+operator fun Point.dec() = Point(x-1, y-1)
 
 fun main() {
 //    convertLbToKg(100.00)
@@ -57,4 +61,9 @@ fun main() {
 //    printWeather(forecastTomorrow = "hail", forecastToday = "sunny")
     printStock("coke") // infix
     printStock("pepsi")
+    var pointA = Point(1,2)
+    println(Point(1,2)+ Point(2,3))
+    println(pointA + 1)
+    pointA--
+    println(pointA)
 }

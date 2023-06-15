@@ -7,7 +7,7 @@ import kotlin.math.*
 
 fun getAreaOfCircle(radius: Double) {
     val pi = 3.1415926 // immutable variable + type inference
-    var area = pi*radius.pow(2) // mutable variable + type inference
+    var area: Double = pi*radius.pow(2) // mutable variable + type inference
     var printResult: String = "Circle with radius of $radius has area of $area" // typed variable declarations
     println(printResult)
 }
